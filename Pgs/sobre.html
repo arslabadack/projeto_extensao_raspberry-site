@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <title>Sobre o Projeto</title>
+        <meta name="viewport" content="width=device-width, inital-scale1.0" />
+        <link rel="icon" href="../icones/IF.ico">
+        <link rel="stylesheet" type="text/css" href="../style.css" />
+    </head>
+    <body>
+        <header>
+            <div class="navg">
+                <a href="../index.html">
+                    <img id="logo_ifsc" src="../imagens/ifsc_horizontal.png" alt="Logo do Instituto Federal de Santa Catarina Câmpus Canoinhas, as letras IF estão na cor verde, sendo o ponto do I vermelho, o ao lado desta logo está escrito Instituto Federal Câmpus Canoinhas na cor preta" title="Bem Vindo" />
+                </a>
+                <!-- Links de Navegação -->
+                <a href="monitoramento.html" target="_self" class="links_menu">Monitoramento</a>
+                <a href="historico.html" target="_self" class="links_menu">Histórico</a>
+                <a href="https://canoinhas.ifsc.edu.br/" class="links_menu" target="_blank">IFSC_Canoinhas</a>
+                <a href="sobre.html" class="links_menu">Sobre_o_Projeto</a>
+            </div>
+            <div class="status_bar">
+                <div class="bookmark">
+                    <b>Histórico</b>
+                </div>
+            </div>
+        </header>
+
+        <main>
+          <section>
+            <h1>Objetivo</h1>
+            <p>
+              Com a finalidade de trazer inovação e<br />conhecimento, nós alunos da área de TI (Tecnologia da<br />Informação) desenvolvemos este projeto baseado no<br />conceito de Internet das Coisas, onde o princípio é mudar a<br />forma como interagimos com o mundo, e principalmente, a<br />forma como o mundo interage conosco. O qual é um<br />conceito de mudar não só a forma como vivemos, mas sim a<br />forma como trabalhamos tambêm.
+              <br />De uma forma simples Internet das Coisas é o modo como<br />objetos e outros equipamentos estão conectados e se<br />comunicando entre si, e assim trazendo facilidade e<br />benefícios aos usuários. Através de sensores, softwares e<br />equipamentos capazes de trabalhar em conjunto com a rede<br />(internet).
+            </p>
+            <h1>Tecnologias Utilizadas</h1>
+
+            <h2>Raspberry Pi 3</h2>
+            <img src="../imagens/raspberry.png" alt="imagem de um raspberry pi 3" />
+            <p>
+              Este dispositivo do tamanho de um cartão de crédito tem o propósito de ser um computador de baixo custo, assim sendo acessível e ideal para projetos envolvendo programação, eletrônica e robótica. Seu diferêncial em comparação ao Arduino é possuir interface gráfica e uma arquitetura similar a dos smartphones, possuindo um processador quad-core de 1,2 GHz com suporte a instruções de 64 bits, e 1GB de memória RAM o Raspbery Pi 3 é uma ótima escolha para este projeto. Custando cerca de R$200,00. <a href="sobre_raspberry.html">Especificações Técnicas</a>
+            </p>
+
+            <h2>Sensor de Umidae e Temperatura DHT11</h2>
+            <img src="../imagens/dht11.jpg" alt="imagem de um sensor de temperatura e umidade" />
+            <p>
+              Responsável por fazer leituras referêntes a umidade e temperatura, o DHT11 é capaz de fazer leituras de temperaturas entre 0 a 50 graus Celsius e umidade entre 20 a 90%.
+            </p>
+            <p>características básicas desse senso:</p>
+            <ul>
+              <li>Alimentação: 3 à 5,5 V</li>
+              <li>Faixa de leitura – Umidade: 20 à 80%</li>
+              <li>Precisão umidade: 5%</li>
+              <li>Faixa de leitura – Temperatura: 0 – 50 ºC</li>
+              <li>Precisão temperatura: +/- 2 ºC</li>
+            </ul>
+
+            <h2>Ligação dos Componêntes</h2>
+            <p>Para você realizar a conxão corretamente é necessário:</p>
+            <ol>
+              <li>Raspberry Pi</li>
+              <li>Sensor DHT11</li>
+              <li>Resistor de 4,7K</li>
+              <li>Fios (de preferência coloridos)</li>
+          </ol>
+            <img src="../imagens/dht11_ligacao.png" alt="imagem que mostra a ligação eletrônica entre o raspberry pi 3 e o sensor de umidade e temperatura">
+            <p>Neste link você encontra a pinagem do raspberry pi 3 com sua devida especificação: <a href="https://pinout.xyz/" target="_blank">pinout.xyz</a>
+            </p>
+          </section>
+
+          <a href="#topo">Voltar ao Topo</a>
+
+        </main>
+
+        <footer>
+            <div id="authors">
+                <p><b>Autores:</b> Daniel Wzoreck e Adriano Szompuawski</p>
+                <p><b>Agradecimentos:</b> xxxxxx xxxxx xxxxx</p>
+                <div id="image">
+                    <br />
+                    <p>É desenvolvedor?</p>
+                    <p>Gostaria de contribuir no projeto?</p>
+                    <p>Acesse o nosso repositório no:</p>
+                    <a href="https://github.com/wzoreck/projeto_extensao_raspberry-estufa" target="_blank" />
+                        <img id="git" src="../imagens/GitHub.png" alt="" title="Acessar repositório" />
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>
